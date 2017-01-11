@@ -15,5 +15,13 @@ public class TestSum extends TestCase {
 		assertTrue(-4 == MathMethods.sum(-2, -2));
 	}
 	
+	public void testProdDosPositivos() {
+		assertTrue(4 == MathMethods.sum(2, 2));
+	}
+
+	public void testProdDosNegativos() {
+		assertTrue(6 == MathMethods.sum(-2, -3));
+	}
+	
 	
 }
