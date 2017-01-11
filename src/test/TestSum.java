@@ -20,7 +20,7 @@ public class TestSum extends TestCase {
 	}
 
 	public void testProdDosNegativos() {
-		assertTrue(6 == MathMethods.sum(-2, -3));
+		assertTrue(8 == MathMethods.sum(-2, -4));
 	}
 	
 	
