@@ -7,5 +7,5 @@ public class MathMethods {
 		result = a + b;
 		return result;
 	}
-
+	
 }
